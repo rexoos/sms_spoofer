@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+  <cloud-backup [disableIfNoEncryptionCapabilities="true"]>
+    <include domain="sharedpref" path="sms_spoof_prefs.xml"/>
+    <include domain="database" path="sender_database"/>
+  </cloud-backup>
+</data-extraction-rules>
